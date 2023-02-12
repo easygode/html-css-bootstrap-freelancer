@@ -1,9 +1,24 @@
+/* Variabili*/
+:root {
+    --bianco: #ffffff;
+    --verdone: #2c3e50;
+    --verdino: #1abc9c;
+    --bordeaux: #ba4b63;
+    --verdemare: #1ea4b6;
+    --nerone: #140f0f;
+    --azzurro: #1c83c1;
+    --blu: #0e38b5;
+    --sabbia: #ccb2a3;
+}
 
+/* Menu Navigazione*/
 
 nav {
-    color: white;
+    color: var(--bianco);
     height: 5.625rem;
 }
+
+/* Sezione Start*/
 
 .start {
     height: 30.625rem;
@@ -15,10 +30,44 @@ nav {
     border: .125rem dashed darkgreen;
 }
 
-.start h1 {
-    color: white;
+.start h1, 
+.portofolio h2 {
+    color: var(--bianco);
 }
 
-.portofolio h2 {
-    color: white;
+/* Sezione Portfolio*/
+
+.portfolio {
+    width: 100%; 
+    background-color: var(--bianco);
+}
+
+.portfolio div {
+    height: 22.5rem;
+    width: 30.625rem;
+    border: .125rem dashed black;
+}
+
+.bordeaux {
+    background-color: var(--bordeaux);
+}
+
+.verdemare {
+    background-color: var(--verdemare);
+}
+
+.nerone {
+    background-color: var(--nerone);
+}
+
+.azzurro {
+    background-color: var(--azzurro);
+}
+
+.blu {
+    background-color: var(--blu);
+}
+
+.sabbia {
+    background-color: var(--sabbia);
 }
