@@ -1,0 +1,24 @@
+
+
+nav {
+    color: white;
+    height: 5.625rem;
+}
+
+.start {
+    height: 30.625rem;
+}
+
+.start img{
+    width: 14.0625rem;
+    height: 16.25rem;
+    border: .125rem dashed darkgreen;
+}
+
+.start h1 {
+    color: white;
+}
+
+.portofolio h2 {
+    color: white;
+}
