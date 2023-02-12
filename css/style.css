@@ -78,3 +78,9 @@ nav {
     height: 30.625rem;
     background-color: var(--verdino);
 }
+
+/*Footer*/
+.footer {
+    height:15.625rem;
+    background-color: var(--verdone);
+}
