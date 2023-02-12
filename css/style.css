@@ -22,6 +22,7 @@ nav {
 
 .start {
     height: 30.625rem;
+    background-color: var(--verdino);
 }
 
 .start img{
@@ -70,4 +71,10 @@ nav {
 
 .sabbia {
     background-color: var(--sabbia);
+}
+
+/*Sezione About*/
+.about {
+    height: 30.625rem;
+    background-color: var(--verdino);
 }
