@@ -20,7 +20,6 @@ nav {
 /*Header*/
 
 .container {
-    max-width: 95rem;
     margin: 0 auto;
 }
 
@@ -32,13 +31,8 @@ nav {
 }
 
 #start img {
-    width: 30.625rem;
-}
-
-#portfolio {
-    color: var(--nerone);
-    height: 156.25rem;
-    width: 100%;
+    width: 14.0625rem;
+    display: block;
 }
 
 #star-black {
@@ -46,13 +40,12 @@ nav {
 }
 
 #portfolio img {
-    overflow: 0 auto;
+    width: 30.625rem;
     border-radius: 1.25rem;
 }
 
 #about {
-    background-color: var(--bianco);
-    height: 43.75rem;
+    background-color: var(--ms_primary-color);
     color: var(--bianco);
 }
 
