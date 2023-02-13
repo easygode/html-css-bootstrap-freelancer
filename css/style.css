@@ -1,5 +1,6 @@
 /* Import*/
 @import url(variables.css);
+@import url(utilities.css);
 
 /* Import*/
 
@@ -22,6 +23,20 @@ nav {
     background-color: var( --ms_primary-light);
     color: var(--bianco);
     height: 24.375rem;
+    margin: 0 auto;
+    
+}
+
+#start img {
+    width: 14.0625rem;
+    display: block;
+}
+
+.ms-star {
+ height: .2125rem;
+ width: 6rem;
+ background-color: var(--bianco);
+ margin: 1.25rem;
 }
 
 #portfolio {
