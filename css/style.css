@@ -23,6 +23,7 @@ nav {
     margin: 0 auto;
 }
 
+/*Start*/
 #start {
     background-color: var( --ms_primary-light);
     color: var(--bianco);
@@ -35,26 +36,28 @@ nav {
     display: block;
 }
 
-#star-black {
+#star-black,
+#starr-black {
     background-color: var(--nerone);
 }
 
+/*Portfolio*/
 #portfolio img {
     width: 30.625rem;
     border-radius: 1.25rem;
 }
 
+/*About*/
 #about {
     background-color: var(--ms_primary-color);
     color: var(--bianco);
 }
 
+/*Contact*/
 #contact {
-    color: var(--ms_primary-light);
-    height: 36.875rem;
-    color: var(--nerone)
 }
 
+/*Footer*/
 footer {
     background-color: var(--ms_primary-color);
     height: 35rem;
