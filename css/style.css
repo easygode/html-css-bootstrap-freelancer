@@ -19,33 +19,39 @@ nav {
 
 /*Header*/
 
+.container {
+    max-width: 95rem;
+    margin: 0 auto;
+}
+
 #start {
     background-color: var( --ms_primary-light);
     color: var(--bianco);
-    height: 24.375rem;
     margin: 0 auto;
     
 }
 
 #start img {
-    width: 14.0625rem;
-    display: block;
-}
-
-.ms-star {
- height: .2125rem;
- width: 6rem;
- background-color: var(--bianco);
- margin: 1.25rem;
+    width: 30.625rem;
 }
 
 #portfolio {
     color: var(--nerone);
     height: 156.25rem;
+    width: 100%;
+}
+
+#star-black {
+    background-color: var(--nerone);
+}
+
+#portfolio img {
+    overflow: 0 auto;
+    border-radius: 1.25rem;
 }
 
 #about {
-    background-color: var(--ms_primary-light);
+    background-color: var(--bianco);
     height: 43.75rem;
     color: var(--bianco);
 }

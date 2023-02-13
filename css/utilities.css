@@ -1,0 +1,13 @@
+/*star*/
+
+:root {
+    --bianco:#FFF;
+}
+
+.ms-star {
+    height: .2125rem;
+    width: 6rem;
+    margin: 1.25rem;
+    background-color: var(--bianco);
+   }
+/*star*/
