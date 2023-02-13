@@ -1,86 +1,47 @@
-/* Variabili*/
-:root {
-    --bianco: #ffffff;
-    --verdone: #2c3e50;
-    --verdino: #1abc9c;
-    --bordeaux: #ba4b63;
-    --verdemare: #1ea4b6;
-    --nerone: #140f0f;
-    --azzurro: #1c83c1;
-    --blu: #0e38b5;
-    --sabbia: #ccb2a3;
-}
+/* Import*/
+@import url(variables.css);
 
-/* Menu Navigazione*/
+/* Import*/
+
+/*Header*/
 
 nav {
+    background-color: var(--ms_primary-color);
     color: var(--bianco);
     height: 5.625rem;
 }
+/*Header*/
 
-/* Sezione Start*/
+/*Main*/
 
-.start {
-    height: 30.625rem;
-    background-color: var(--verdino);
+
+/*Header*/
+
+#start {
+    background-color: var( --ms_primary-light);
+    color: var(--bianco);
+    height: 24.375rem;
 }
 
-.start img{
-    width: 14.0625rem;
-    height: 16.25rem;
-    border: .125rem dashed darkgreen;
+#portfolio {
+    color: var(--nerone);
+    height: 156.25rem;
 }
 
-.start h1, 
-.portofolio h2 {
+#about {
+    background-color: var(--ms_primary-light);
+    height: 43.75rem;
     color: var(--bianco);
 }
 
-/* Sezione Portfolio*/
-
-.portfolio {
-    width: 100%; 
-    background-color: var(--bianco);
+#contact {
+    color: var(--ms_primary-light);
+    height: 36.875rem;
+    color: var(--nerone)
 }
 
-.portfolio div {
-    height: 22.5rem;
-    width: 30.625rem;
-    border: .125rem dashed black;
-}
-
-.bordeaux {
-    background-color: var(--bordeaux);
-}
-
-.verdemare {
-    background-color: var(--verdemare);
-}
-
-.nerone {
-    background-color: var(--nerone);
-}
-
-.azzurro {
-    background-color: var(--azzurro);
-}
-
-.blu {
-    background-color: var(--blu);
-}
-
-.sabbia {
-    background-color: var(--sabbia);
-}
-
-/*Sezione About*/
-.about {
-    height: 30.625rem;
-    background-color: var(--verdino);
-}
-
-/*Footer*/
-.footer {
-    height:15.625rem;
-    background-color: var(--verdone);
+footer {
+    background-color: var(--ms_primary-color);
+    height: 35rem;
+    color: var(--bianco);
 }
